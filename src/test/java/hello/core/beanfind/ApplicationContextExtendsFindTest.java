@@ -41,8 +41,6 @@ public class ApplicationContextExtendsFindTest {
 
     @Configuration
     static class TestConfig{
-
-
         @Bean
         public DiscountPolicy rateDiscountPolicy(){
             return new RateDiscountPolicy();
