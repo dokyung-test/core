@@ -13,6 +13,8 @@ import org.springframework.context.annotation.Configuration;
 
 public class ApplicationContextExtendsFindTest {
 
+    //18:42 intelliJ TEST
+
     AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(TestConfig.class);
 
     @Test
@@ -43,6 +45,8 @@ public class ApplicationContextExtendsFindTest {
     static class TestConfig{
         @Bean
         public DiscountPolicy rateDiscountPolicy(){
+
+
             return new RateDiscountPolicy();
         }
 
