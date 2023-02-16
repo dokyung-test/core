@@ -13,6 +13,8 @@ import org.springframework.context.annotation.Configuration;
 
 public class ApplicationContextExtendsFindTest {
 
+    //18:42 intelliJ TEST
+
     AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(TestConfig.class);
 
     @Test
