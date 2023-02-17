@@ -28,7 +28,11 @@ public class AppConfig {
         return new MemberServiceImpl(memberRepository());
     }
 
-
+    //abcd
+    
+    
+    
+    
     //실제 구현체를 지정
     //구현체 또 변경되면 이 메서드만 바꿔주면 나머지 위 코드 등 변경안해도 됨!
     @Bean
