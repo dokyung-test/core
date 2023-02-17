@@ -18,9 +18,6 @@ import org.springframework.context.annotation.Configuration;
 //Impl은 "의존관계에 대한 고민은 외부 AppConfig에게 맡기고 실행에만 집중한다."
 @Configuration
 public class AppConfig {
-    // dokyung_intellJ sourcetree 테스트
-
-
     //new로 생성하는게 아니라 메서드로 뺀 장점 : 각 메서드명만 확인해도 각 기능이 눈에 띔.
     @Bean
     public MemberService memberService(){
